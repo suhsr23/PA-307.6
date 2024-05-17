@@ -1,0 +1,29 @@
+body {
+    background-image: url('https://as2.ftcdn.net/v2/jpg/06/74/65/25/1000_F_674652503_s3e9iaS4AiI1hCxYxxnj0QCvliJMnXsT.jpg'); 
+    background-size: cover;
+    background-position: center;
+   
+  }
+
+.banner {
+    height: 30%;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .banner h1 {
+    color: yellow;
+  }
+  
+  .form-container {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 600px;
+    height: 500px;
+  }
+
+  .col-md-5 { 
+    text-align: center;
+    color: whitesmoke;
+  }
+  
+  

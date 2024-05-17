@@ -1,0 +1,37 @@
+.user-pic {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+  
+  .user-pic img {
+    display: block;
+  }
+  
+  .card {  
+    text-align: center;
+    
+    width: 300px;
+    background-color: skyblue; 
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0.2); 
+    padding: 30px;
+  
+  }
+  
+  .welcome-text {
+    font-family: Copperplate;
+    font-size: larger;
+    font-style: italic;
+    font-weight: 500;
+    color: wheat;
+  }
+  
+  body {
+    background-image: url("https://as2.ftcdn.net/v2/jpg/01/98/50/63/1000_F_198506301_zS7IDI4YU7kW0zFVagjTwl8AVI7lZvjP.jpg"); /* Replace with your image path */
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: 
+    margin: 0; 
+    height: 100vh; 
+  }
+  

@@ -1,0 +1,22 @@
+body {
+    background-image: url('https://t3.ftcdn.net/jpg/01/36/51/90/240_F_136519023_GHLiQY7LND4ylpw8XPPZH8oDYR4Vbbsi.jpg'); 
+    background-size: cover;
+    background-position: center;
+    te
+  }  
+.table {
+    border: none;
+    margin: 10%;
+  }
+  
+  .table th,
+  .table td {
+    background: none;
+    padding: 0.5rem;
+    vertical-align: middle;
+    color: whitesmoke;
+  }
+
+  
+
+  

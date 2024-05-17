@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./bootstrap-5.3.3-dist/css/bootstrap.min.css">
+  <script src="./bootstrap-5.3.3-dist/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="createreservation.css">
+  <title>Create Reservation</title>
+</head>
+<body >
+
+  <div class="container-fluid h-100 d-flex flex-column">
+
+    <div class="banner d-flex align-items-center justify-content-center">
+      <h1 class="text-warning scrolling-text">Welcome to ABC's Diner</h1>
+    </div>
+
+    <div class="row h-70">
+        <div class="col-md-5 text-right pt-4">
+            <h3>Restaurant Info</h3>
+            <p>Address: <br>1234 XYZ Ln <br> Huntersville,NC--28078</p>
+            <p>Timings: <br> Monday: 10 AM to 9 PM<br>TUESDAY: CLOSED<br>WEDNESDAY: 10 AM to 9 PM<br>THURSDAY: 10 AM to 9 PM<br>FRIDAY: 10 AM to 11 PM<br>SATURDAY: 10 AM to 11 PM<br>SUNDAY: 11 AM to 6 PM<br> </p>
+          </div>
+
+          <div class="col-md-5 d-flex flex-column justify-content-center px-0">  <div class="form-container p-4 rounded shadow" style="background-color: rgba(255, 255, 255, 0.8);">
+             <h2>Create Reservation</h2>
+            <form action="reservationconfirmation.html">
+            <input type="text" name="Name" id="Name" placeholder="Name" required /><br><br>
+            <input type="number" name="people" id="people" placeholder="No of people" required /><br><br>
+            <input type="time" name="time" id="time" placeholder="time" required/><br><br>
+            <button type="submit">Submit</button>
+             </form>
+          </div>
+      </div>
+
+    </div>
+
+  
+
+  <script>
+    // Add script for scrolling text animation if needed
+  </script>
+</body>
+</html>

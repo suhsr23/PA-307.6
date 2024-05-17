@@ -1,0 +1,27 @@
+body {
+     
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .banner {
+    height: 30%;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .banner h1 {
+    color: yellow;
+  }
+  
+  .form-container {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 500px;
+    height: 500px;
+  }
+  
+  
+  .col-md-3 { 
+    color: whitesmoke;
+  }
+  
